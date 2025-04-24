@@ -1,6 +1,6 @@
 # 🧪 Automation Test Suite
 
-A test automation framework built with **Selenium**, **Java**, and **TestNG** for end-to-end testing of web applications.
+A test automation framework built with **Selenium**, **Java**, and **TestNG** for end-to-end testing of demo e-commerce website.
 
 ## 🔧 Technologies Used
 
