@@ -35,6 +35,14 @@ public class HomePage extends PageBase {
         clickBtn(searchBtn);
     }
 
+    @FindBy(xpath = "//span[@class='wishlist-label']")
+    public WebElement wishlistBtn;
+    public void openWishlist () { clickBtn(wishlistBtn);}
+
+    @FindBy(xpath = "//span[@class='cart-label']")
+    public WebElement cartBtn;
+    public void openCart () {clickBtn(cartBtn);}
+
     @FindBy (css = ".wishlist-qty")
     public WebElement wishListQuantity;
 

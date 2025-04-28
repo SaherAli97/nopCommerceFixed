@@ -12,6 +12,9 @@ public class PageBase {
 
     }
 
+    public PageBase() {
+    }
+
     protected static void clickBtn (WebElement button) {
         button.click();
     }

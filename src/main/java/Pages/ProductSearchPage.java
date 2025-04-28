@@ -18,10 +18,10 @@ public class ProductSearchPage extends PageBase{
     public WebElement searchAssertion;
 
     @FindBy (css = "button[title='Add to wishlist']")
-    WebElement wishlistBtn;
+    WebElement addWishlistBtn;
 
     @FindBy (css = ".button-2.product-box-add-to-cart-button")
-    WebElement cartBtn;
+    WebElement addCartBtn;
 
     @FindBy (css = ".bar-notification.success")
     public WebElement confirmMessage;
@@ -34,11 +34,11 @@ public class ProductSearchPage extends PageBase{
 }
 
     public void addToWishList () {
-        clickBtn(wishlistBtn);
+        clickBtn(addWishlistBtn);
 }
 
     public void addToCart () {
-        clickBtn(cartBtn);
+        clickBtn(addCartBtn);
     }
 
 

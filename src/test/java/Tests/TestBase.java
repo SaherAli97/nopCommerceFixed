@@ -8,6 +8,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
 
 import static java.lang.System.getProperty;
 
